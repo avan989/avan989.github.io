@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Anh Van">
+  <title>Resume Template</title>
+  <link rel="stylesheet" type="text/css" href="/Users/anh/Desktop/Resume Website/style.css">
+</head>
+
+<body>
+  <header class="grid">
+    <button type="button" id="headerButton">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </button>
+
+    <div id="dropDownMenuItems">
+      <ul>
+        <li><a class= "scroll" href="#about">About</a></li>
+        <li><a class= "scroll" href="#section-b">Work Experiences</a></li>
+        <li><a class= "scroll" href="#section-c">Project</a></li>
+        <li><a class= "scroll" href="#footer">Contact</a></li>
+      </ul>
+    </div>
+
+    <nav id="navigation">
+      <ul>
+        <li> <a class = "scroll" href="#about">About</a></li>
+        <li> <a class = "scroll" href="#section-b">Work Experiences</a></li>
+        <li> <a class = "scroll" href="#section-c">Project</a></li>
+        <li> <a class = "scroll" href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="showcase" class="grid">
+    <div class="bg-image"></div>
+    <div class="container">
+      <h3>Hi, I'm </h3>
+      <hr/>
+      <h1> Anh Van </h1>
+    </div>
+  </section>
+
+  <section id="section-a" class="grid">
+    <div class="container">
+      <div id="about">
+        <h1>ABOUT</h1>
+        <hr/>
+        <p>Software Engineer with 5+ years of proven experience interacting and collaborating with multiple levels of management and technical support professionals. Accomplished measurable results while leading teams in a dynamic, fast-paced environment. Possess a comprehensive background in critical analysis, information assurance, and strategic planning derived from conducting domestic and global operations in South Korea.</p>
+        <h3>Educations</h3>
+        <p>Bachelor of Science in Aerospace Engineering | University of Maryland, College Park – 2011</p>
+        <p>Master of Science in Computer Science | Towson University – August 2018 (Current)</p>
+        <h3>Military</h3>
+        <p>Test, Measurement & Diagnostic Equipment Maintenance Course | United States Military (Army) – 2013</p>
+        <h3>Technical Skills</h3>
+        <p>Programming Languages: COBOL, XML, JCL, SQL, Python, HTML5, CSS, JavaScript</p>
+        <p>Previous experiences: C++, MatLab, Java, Swift 3.0</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-b" class="grid">
+    <div class="container">
+      <h1>WORK EXPERIENCES</h1>
+      <hr/>
+      <h3>Accenture</h3>
+      <h4>Associate Software Engineer <br>2017 – August 2018</br></h4>
+      <p>Collaborated with a multi-national team operating between California, Florida, and Manilla to support a multimillion dollar project. Assisted in the development of an residential time of use program and the automation of an enrollment process in support of the ultilies industry. </p>
+      <h3>United State Army</h3>
+      <h4>Electronic Technician - Test, Measure and Diagnostic Equipments Specialist<br>2012 - June 2017</h4>
+      <p>Calibrated and repaired an wide variety of equipments including multimeters, scales, signal generators and spectrum analyzer while collaborating with senior leadership and fellow soldiers to maintain an readiness rate abover 95%.</p>
+    </div>
+  </section>
+
+  <section id="section-c" class="grid">
+    <div class="container"><h1>Project</h1>
+      <hr/></div>
+      <div class="box" id="box1">
+        <h3>Resume Website </h3>
+        <img src="img/resume.png" alt="">
+        <p>Resume Website using HTML5, CSS and Javascript with the jQuery framework. Website is responsive using an mobile first design with an linear system and the HTML 5 grid system for destop. The navigation is also responsive to the size. As it goes to destop the full naviation appear and as it goes to mobile the navigation changes to a drop down menu. Drop down menu has a scrolling animation using jQuery. </p>
+        <p>Technologies includes: HTML5, CSS, Javascript and jQuery.</p>
+      </div>
+      <div class="box" id="box2">
+        <h3>Retweet Project </h3>
+        <img src="img/twitter.jpg" alt="">
+        <p>Created python bot using Tweepy library to enter Twitter Sweepstakes. Retweeted tweet, follow user, likes and unfriend base on several criteria: tweet any variation of the statement “Retweet to Win”, follow if the word “follow” is in the tweet, like if the word “like” is in the tweet and unfriend base on a first in, first out approach when the friends count is 2000.</p>
+        <p>Technologies includes: Python</p>
+      </div>
+      <div class="box" id="box3">
+        <h3>Easy Meme (iOS)</h3>
+        <img src="img/ios.jpg" alt="">
+        <p>Developed an iOS app that used photo albums or cameras to create memes. Allows users to create, store, and share memes through Facebook and email while storing it using core data. Designed a custom restraint for layout through class size and a delegate for handling button in custom cell view.</p>
+        <p>Technologies includes: Swift </p>
+      </div>
+      <div class="box" id="box4">
+        <h3>Inventory (Andriod)</h3>
+        <img src="img/inventory.png" alt="">
+        <p>Designed and created an Android app that tracks store’s inventory. Store information using SQlite. Pass information through intent while validating user's input. </p>
+
+        <p>Technologies includes: Java, XML </p>
+      </div>
+
+  </section>
+
+  <footer class="grid" id="footer">
+    <div class="container">
+      <h1>Contact</h1></li>
+      <hr/>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/anh-duc-van-9ba4a638/">
+          <h3>LinkedIn</h3></a></li>
+        <li><a href="https://github.com/avan989"><h3>GitHub</h3></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
